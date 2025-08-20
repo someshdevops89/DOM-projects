@@ -1,0 +1,50 @@
+*{   margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Gilroy';
+
+}
+html, body{
+    height: 100%;
+    width: 100%;
+  background-color: aquamarine;
+ 
+}
+ body{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+
+#card{
+
+    height: 300px;
+    width:200px;
+   background-color: white;
+   border-radius: 7px;
+ 
+   padding:15px;
+
+
+
+
+}
+#card img{
+    height: 60%;
+    width: 100%;
+    border-radius: 8px;
+ 
+  object-fit:cover;
+  object-position: center;
+
+
+}
+#card h1{
+
+    font-size: 30px;
+    margin-left: 38px;
+    font-weight: 700px;
+
+
+}
