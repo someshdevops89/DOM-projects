@@ -8,15 +8,14 @@ target.addEventListener("click",function(){
     change.innerHTML = "Friends"
     change.style.color = "green"
     target.innerHTML = "Unfollow"
-    flag = 1
+      flag = 1
 
-}else{
+
+    }else{
     change.innerHTML = "Suggestion"
     change.style.color = "palevioletred"
     target.innerHTML = "Follow"
-
-
-
-
+     
+    flag = 0}
 
 })
