@@ -54,6 +54,8 @@ html, body{
     margin-left:47px;
     color: palevioletred;
     padding-bottom: 10px;
+    font-weight: 1000;
+    cursor: pointer;
 
 
 }
@@ -62,7 +64,7 @@ html, body{
     display: flex;
     align-items: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 
@@ -74,7 +76,7 @@ html, body{
     padding: 6px 8px;
    justify-content: center;
    gap: 20px;
-   
+   cursor: pointer;
     border-radius: 10px;
     display: block;
    
@@ -85,13 +87,13 @@ html, body{
 #card #remove{
     background-color: #dadada;
     color: black;
+    
 
 
 
 }
 #card #add{
     margin-left: 60px;
-
-
+    
 
 }
