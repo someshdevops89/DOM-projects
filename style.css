@@ -19,7 +19,7 @@ html, body{
 
 #card{
 
-    height: 300px;
+    height: 350px;
     width:200px;
    background-color: white;
    border-radius: 7px;
@@ -44,7 +44,54 @@ html, body{
 
     font-size: 30px;
     margin-left: 38px;
-    font-weight: 700px;
+    font-weight: 700;
+    color: black;
+
+}
+#card h5{
+    font-size: 15px;
+    margin: 10px 10px;
+    margin-left:47px;
+    color: palevioletred;
+    padding-bottom: 10px;
+
+
+}
+#btn-container{
+
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+#card button{
+    background-color:#1589FF;
+    color: white;
+    padding: 0%;
+    font-weight: 700;
+    padding: 6px 8px;
+   justify-content: center;
+   gap: 20px;
+   
+    border-radius: 10px;
+    display: block;
+   
+  
+
+
+}
+#card #remove{
+    background-color: #dadada;
+    color: black;
+
+
+
+}
+#card #add{
+    margin-right: 50px;
+
 
 
 }
